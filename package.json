@@ -1,0 +1,11 @@
+{
+  "name": "yuzutang-chain-platform",
+  "version": "1.0.0",
+  "description": "御足堂连锁足浴 · 总部分店管理平台",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "reset": "node -e \"require('fs').rmSync('data/db.json',{force:true});console.log('数据已重置，下次启动将重新生成演示数据')\""
+  },
+  "engines": { "node": ">=18" }
+}
